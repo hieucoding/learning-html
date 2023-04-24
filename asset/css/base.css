@@ -1,0 +1,37 @@
+:root {
+  --primary: #021a84;
+  --secondary: #fe4c4c;
+  --white: #ffffff;
+  --text: #171717;
+  --green-text: #2ada66;
+  --blue-text: #021a84;
+  --red-text: #e5532a;
+  --green: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    #2ada66;
+  --blue: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    #021a84;
+  --red: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    #e5532a;
+  --gray: #999999;
+}
+html, body{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+.wrapper{
+    max-width: 1160px;
+    width: 100%;
+    margin-inline: auto;
+}
